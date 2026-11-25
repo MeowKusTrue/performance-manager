@@ -1,0 +1,28 @@
+{
+  "id": "performance-manager",
+  "name": "Performance Manager",
+  "description": "Conservative idle tab unloading and on-demand Firefox memory tools.",
+  "author": "OpenAI / local prototype",
+  "version": "0.1.0",
+  "createdAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "readme": "README.md",
+  "js": true,
+  "supportsUnload": false,
+  "scripts": {
+    "performance-manager.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ]
+    }
+  },
+  "tags": [
+    "performance",
+    "memory",
+    "tabs"
+  ],
+  "fork": [
+    "firefox"
+  ],
+  "preferences": "preferences.json"
+}

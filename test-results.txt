@@ -1,0 +1,58 @@
+TAP version 13
+# Subtest: domain boundary and case
+ok 1 - domain boundary and case
+  ---
+  duration_ms: 0.924111
+  type: 'test'
+  ...
+# Subtest: idle allowlisted tab
+ok 2 - idle allowlisted tab
+  ---
+  duration_ms: 0.239263
+  type: 'test'
+  ...
+# Subtest: protected tab states
+ok 3 - protected tab states
+  ---
+  duration_ms: 0.502505
+  type: 'test'
+  ...
+# Subtest: recent and invalid timestamps
+ok 4 - recent and invalid timestamps
+  ---
+  duration_ms: 0.235092
+  type: 'test'
+  ...
+# Subtest: exclude and allowlist
+ok 5 - exclude and allowlist
+  ---
+  duration_ms: 0.176399
+  type: 'test'
+  ...
+# Subtest: browser and safety guard
+ok 6 - browser and safety guard
+  ---
+  duration_ms: 1.20442
+  type: 'test'
+  ...
+# Subtest: sum distinct process ids
+ok 7 - sum distinct process ids
+  ---
+  duration_ms: 0.296291
+  type: 'test'
+  ...
+# Subtest: missing memory is not zero
+ok 8 - missing memory is not zero
+  ---
+  duration_ms: 0.309158
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 74.701141

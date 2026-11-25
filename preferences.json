@@ -1,0 +1,75 @@
+[
+  {
+    "type": "checkbox",
+    "label": "Automatic idle tab unloading (opt-in)",
+    "property": "sine.performance-manager.enabled",
+    "defaultValue": false
+  },
+  {
+    "type": "dropdown",
+    "label": "Idle timeout",
+    "property": "sine.performance-manager.minutes",
+    "defaultValue": "15",
+    "placeholder": false,
+    "options": [
+      {
+        "value": "3",
+        "label": "3 min"
+      },
+      {
+        "value": "5",
+        "label": "5 min"
+      },
+      {
+        "value": "10",
+        "label": "10 min"
+      },
+      {
+        "value": "15",
+        "label": "15 min"
+      },
+      {
+        "value": "30",
+        "label": "30 min"
+      },
+      {
+        "value": "60",
+        "label": "60 min"
+      },
+      {
+        "value": "120",
+        "label": "120 min"
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "label": "Game mode: 3 minute idle timeout (manual toggle)",
+    "property": "sine.performance-manager.game",
+    "defaultValue": false
+  },
+  {
+    "type": "checkbox",
+    "label": "Only unload allowlisted websites (recommended)",
+    "property": "sine.performance-manager.allow-only",
+    "defaultValue": true
+  },
+  {
+    "type": "string",
+    "label": "Allowed domains (comma separated)",
+    "property": "sine.performance-manager.allowed",
+    "defaultValue": "youtube.com"
+  },
+  {
+    "type": "string",
+    "label": "Never unload these domains",
+    "property": "sine.performance-manager.exclusions",
+    "defaultValue": "mail.google.com, drive.google.com, chatgpt.com, web.telegram.org, discord.com, reduxhub.ru, github.com, localhost, 127.0.0.1"
+  },
+  {
+    "type": "checkbox",
+    "label": "Refresh RAM display every minute",
+    "property": "sine.performance-manager.monitor",
+    "defaultValue": false
+  }
+]
